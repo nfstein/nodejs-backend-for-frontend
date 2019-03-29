@@ -1,22 +1,12 @@
-[![](https://img.shields.io/badge/IBM%20Cloud-powered-blue.svg)](https://cloud.ibm.com)
-![Platform](https://img.shields.io/badge/platform-nodejs-lightgrey.svg?style=flat)
 
 # Create and deploy a Node.js Backend For Frontend (BFF) using Express
 
-> We have similar patterns available for [Swift](https://github.com/IBM/swift-backend-for-frontend), [Java Spring](https://github.com/IBM/spring-backend-for-frontend), and [Java Liberty](https://github.com/IBM/java-liberty-backend-for-frontend) as well!
-
 In this code pattern, you will create a Backend for Frontend (BFF) web service using [Express](https://expressjs.com/) in Node.js, matching a RESTful API documented in [Swagger](https://swagger.io/).
 
-A BFF can be used to elegantly expose complex backend systems to multiple client-facing platforms, such as iOS and the web, without building a monolithic API that attempts to serve all clients equally. Different types of clients require different types of user experiences, and having a backend API tightly coupled to each specific user experience actually makes for a much more loosely coupled system overall. This pattern helps frontend teams iterate on features faster by giving them more control over the APIs they interact with, without affecting the user experience or development team driving a sister frontend.
-
 When you have completed this code pattern, you will understand how to:
-
-* Build out the Backend for Frontend (BFF) architecture pattern
 * Deploy to Kubernetes, Cloud Foundry or a DevOps Pipeline
 * Operate an application with monitoring and distributed trace
 * Connect to provisioned services
-
-![](doc/source/images/architecture.png)
 
 ## Video
 
